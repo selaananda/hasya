@@ -1,0 +1,65 @@
+body {
+    background: linear-gradient(to right, #678d99, #66ffbf);
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: rgb(173, 31, 149);
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: rgb(9, 206, 140);
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background: rgb(115, 115, 170);
+    color: white;
+}
+
+.edit, .done, .delete {
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 2px;
+}
+
+.edit { background: yellow; }
+.done { background: green; color: white; }
+.delete { background: red; color: white; }
